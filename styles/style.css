@@ -1,0 +1,198 @@
+/*Header*/
+header#entete{
+	margin-top: 30px;
+}
+
+	/*logo*/
+	img#logo{
+		width: 70%;
+	}
+
+	/*Titre*/
+	#titreh{
+		margin-left: -60px;
+	}
+
+	.titreh{
+		font-family:'CODE', arial, serif;
+	}
+
+	h1.titreh{
+		color: #065ba1;
+	}
+
+	h2.titreh{
+		color: #021b2f;
+	}
+
+	h1#titreh1{
+		font-size: 60px;
+		margin-bottom: -25px;
+		margin-top: 30px;
+	}
+
+	h1#titreh2{
+		font-size: 35px;
+		margin-bottom: 30px;
+	}
+
+	h2#titreh3{
+		font-size: 55px;
+	}
+
+	/*Photo*/
+	img#photo{
+		width: 130%;
+	}
+
+/*Navbar*/
+
+#navbar{
+	background-color: #d8e8f6;
+	border: 2.5px solid #2a5070;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px 1px black;
+	margin-top: 15px;
+	height: 90px;
+}
+	/*Compétences en mode déroulant*/
+	#navbar #listComp{
+		width: auto;
+		border-right: 2px solid #2a5070;
+		height: 100%
+	}
+
+	#navbar #triangle{
+	 	margin-top: 32px;
+	}
+
+	#navbar #splitComp #triangle img{
+		width: 40%;
+		margin-left: -7px;
+		cursor: pointer;
+	}
+
+	#navbar #splitComp #splitBarComp img{
+		margin-left: 30px;
+		margin-top: -55px;
+		width: 14.20%;	
+	}
+
+	#listComp h1#titreComp{
+		font-family:'Coolvetica', arial, serif;
+		text-transform: uppercase;
+		font-size: 40px;
+		color: #065ba1;
+	}
+
+	#listComp #competences{
+		background-color: #ffa2ad;
+		border: 2px solid black;
+		border-top: none;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		list-style: none;
+		margin-top: 17px;
+		position: absolute;
+		margin-left: -17px;
+	}
+
+	#listComp h1#titreComp span:hover{
+		color: #021b2f;
+		cursor: pointer;
+	}
+
+	#listComp #competences .competence{
+		display: block;
+
+	}
+
+	#listComp #competences .competence{
+		color: #f20017;
+		font-family: 'BigNoodleTitling', arial, serif;
+		font-size: 40px;
+		margin-left: -20px;
+		margin-right: 179px;
+		display: block;
+	}
+
+	#listComp #competences .competence span:hover{
+		color: white;
+		cursor: pointer;
+	}
+
+	.visibiliti{
+		visibility: hidden;
+	}
+
+	/*Coordonées*/
+	#coordonees{
+		margin-left: 0px;
+		margin-top: -10px; 
+	}
+
+	#coordonees .coordonee{
+		font-size: 30px;
+		font-family:'Coolvetica', arial, serif;
+		height: 10px;
+	}
+
+	
+	/*ABOUT ME A METTRE ICI*/
+	#aboutMe #titreAboutMe{
+		color: #065ba1; 
+		font-family:'Coolvetica', arial, serif;
+		font-size: 30px;
+	}
+
+
+/*Experiences*/
+#experiences {
+	background-color: #d8e8f6;
+	border: 2.5px solid #2a5070;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px 1px black;
+	margin: 30px -15px 0px -15px;
+	padding: 0px 20px 10px;
+}
+
+#experiences #titreExp {
+	font-family:'CODE', arial, serif;
+	color: #065ba1;
+	font-size: 40px;
+}
+	/*BAR LATERAL*/
+
+	/*TEXTE*/
+	#experiences #bodyExp .titreExp {
+		font-family: 'BigNoodleTitling', arial, serif;
+		color: #f20017;
+		font-size: 48px;
+	}
+
+	#experiences #bodyExp .textExp {
+		font-family:'Coolvetica', arial, serif;
+		color: #065ba1;
+		font-size: 30px;
+	}
+
+	#experiences #bodyExp .textExp .activite {
+		font-family: 'BigNoodleTitling', arial, serif;
+		color: #f20017;
+		font-size: 35px;
+	}
+
+
+/*Formations*/
+
+	/*EN COURS*/
+
+	/*BAR  MILLIEU*/
+
+	/*ACQUIS*/
+
+/*Footer*/
+
+	/*PROFIL OU PAS PAS SUR*/
+
+	/*CONTACT RS*/
